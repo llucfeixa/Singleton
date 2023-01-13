@@ -33,8 +33,8 @@ public class I18NManagerTest {
         String msg3 = I18NManager.getInstance().getText("es","l2");
         Assert.assertEquals("adiós", msg3);
 
-        //String msg4 = I18NManager.getInstance().getText("pt","l2");
-        //Assert.assertEquals("obrigado", msg4);
+        String msg4 = I18NManager.getInstance().getText("pt","l2");
+        Assert.assertEquals("adeus", msg4);
     }
 
     @Test(expected = MissingResourceException.class)

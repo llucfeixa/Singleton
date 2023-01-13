@@ -1,7 +1,6 @@
 package edu.upc.dsa.models;
 
 import java.util.HashMap;
-import java.util.MissingResourceException;
 import java.util.ResourceBundle;
 
 public class I18NManager {
